@@ -1,0 +1,25 @@
+{
+   "name": "NodeAuth",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "ts-node": "3.3.0",
+      "@types/node": "^8.0.29",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "typeorm": "0.2.32",
+      "reflect-metadata": "^0.1.10",
+      "mysql": "^2.14.1",
+      "express": "^4.15.4",
+      "body-parser": "^1.18.1",
+      "axios": "^0.21.1",
+      "cors": "^2.8.5",
+      "request": "^2.88.2",
+      "jsonwebtoken": "^8.5.1",
+      "md5": "^2.2.1"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts"
+   }
+}
